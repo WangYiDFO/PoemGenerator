@@ -1,0 +1,12 @@
+  #####  #     # #       #          #    ######  #       #######
+ #     #  #   #  #       #         # #   #     # #       #
+ #         # #   #       #        #   #  #     # #       #
+  #####     #    #       #       #     # ######  #       #####
+       #    #    #       #       ####### #     # #       #
+ #     #    #    #       #       #     # #     # #       #
+  #####     #    ####### ####### #     # ######  ####### #######
+
+
+${application.title} ${application.version}
+Running on port ${server.port}
+Powered by Spring Boot ${spring-boot.version}

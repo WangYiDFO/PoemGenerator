@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head> 
+    <title>Rhyming patterns result</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+  <h1>Result</h1>
+  <p>The rhyming patterns were <i th:text="${pattern.patterns}" />. And the generated poem is  </p>
+  <div th:each="poemLine : ${poemLines}">
+      <h4 th:text="${poemLine.line}" />
+      <br></br>
+  </div>
+  
+  
+	<h1>Try again:</h1>
+    <form action="#" th:action="@{/generate}" th:object="${pattern}" method="post">
+        <p>Your desired rhyming patterns: <input type="text" th:field="*{patterns}" /></p>
+        <p><input type="submit" value="Generate" /> <input type="reset" value="Reset" /></p>
+    </form>
+</body>
+</html>

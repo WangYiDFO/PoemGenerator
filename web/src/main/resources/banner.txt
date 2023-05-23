@@ -1,0 +1,8 @@
+,--.   ,--.,------.,-----.   
+|  |   |  ||  .---'|  |) /_  
+|  |.'.|  ||  `--, |  .-.  \ 
+|   ,'.   ||  `---.|  '--' / 
+'--'   '--'`------'`------'  
+                             
+Nanogenmo web app ${application.version}
+Powered by Spring Boot ${spring-boot.version}
